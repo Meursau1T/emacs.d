@@ -178,7 +178,7 @@ The test for presence of the car of ELT-CONS is done with `equal'."
 ;;; Mode load.
 (autoload 'cmake-mode "cmake-mode")
 (autoload 'qml-mode "qml-mode")
-(autoload 'markdown-mode "init-markdown-mode")
+(autoload 'markdown-mode "markdown-mode")
 (autoload 'php-mode "php-mode")
 (autoload 'web-mode "init-web-mode")
 (autoload 'coffee-mode "coffee-mode")
@@ -190,7 +190,7 @@ The test for presence of the car of ELT-CONS is done with `equal'."
 (autoload 'rust-mode "rust-mode")
 (autoload 'qmake-mode "qmake-mode")
 (autoload 'ruby-mode "init-ruby")
-(autoload 'python-mode "init-python")
+;; (autoload 'python-mode "python-mode")
 (autoload 'lua-mode "init-lua")
 (autoload 'swift-mode "swift-mode")
 (autoload 'haskell-mode "init-haskell")
