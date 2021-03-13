@@ -201,7 +201,9 @@ The test for presence of the car of ELT-CONS is done with `equal'."
 (autoload 'pdf-view-mode "init-pdf-tools")
 (autoload 'llvm-mode "llvm-mode")
 (autoload 'powershell-mode "powershell")
-
+(autoload 'paredit-mode "paredit"
+   "Minor mode for pseudo-structurally editing Lisp code."
+     t)
 ;;; ### Auto-fill ###
 ;;; --- 自动换行
 (setq default-fill-column 100)          ;默认显示 100列就换行
